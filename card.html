@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Web</title>
+    <meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/product.css">
+    <link rel="stylesheet" type="text/css" href="css/card.css">
+	<link rel="stylesheet" type="text/css" href="css/fontello.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" href="slick/slick-theme.css">
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="sliderengine/amazingslider.js"></script>
+    <link rel="stylesheet" type="text/css" href="sliderengine/amazingslider-1.css">
+    <script src="sliderengine/initslider-1.js"></script>
+</head>
+<body>	
+	<header>
+		<div class="lienhe">
+			<ul>
+				<li><a href="" class="icon-mobile">quochuydev@gmail.com</a></li>
+				<li><a href="" class="icon-mobile">01682986838</a></li>
+				<li><a href="" ><i class="icon-mobile"></i></a></li>
+			</ul>
+		</div>
+		<div class="head">
+			<ul>
+				<li>
+					<div class="logo">
+						<a href="index.html"><img src="img/banner.jpg" width="50%"></a>					
+					</div>
+
+				</li>
+				<li>
+					<div class="search">
+						<form action="search" method="get">
+						<input type="search" name="key" class="box-search" placeholder="Nhập từ khóa tìm kiếm...">
+						<button type="submit" class="button-search"><i class="icon-mobile"></i></button>
+						</form>	
+					</div>
+				</li>
+				<li>
+					<div class="call">
+						<p><span>hotline: 01682986838</span> <a href="card" class="icon-mobile">Card (2)</a></p>						
+					</div>					
+				</li>
+			</ul>
+		</div>
+		<div class="menu">
+			<nav>
+				<ul>
+					<li><a href="http://localhost/mylaravel/public">Trang chủ</a></li>
+					<li><a href="">Giới thiệu</a></li>
+					<li><a href="">Các loại kẹo cứng Snack</a></li>
+					<li><a href="">Thuốc gia truyền</a></li>
+					<li><a href="">Hỏi đáp</a></li>
+					<li><a href="">Tin tức</a></li>
+					<li><a href="">Liên hệ</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="clear"></div>
+	</header>
+	<div class="content">
+        <center><h1><span>GIỎ HÀNG</span> > XÁC NHẬN > HOÀN TẤT</h1></center>
+        <div class="content-table-1">
+            <table class="table1">
+                <tr class="tb1-top">
+                    <td colspan="3">sản phẩm</td>
+                    <td>giá</td>
+                    <td>số lượng</td>
+                    <td>tổng cộng</td>
+                </tr>
+
+                        <form action="updateCard" method="post">
+                <input name="_token" type="hidden" value="BGuPXlRUPrDtH1QCAa3BX0nQdQeRCvNHHxRYUZpX"/>
+                <input type="hidden" name="rowId" value="370d08585360f5c568b18d1f2e4ca1df">
+                <tr class="tb1-info">
+                    <td>
+                        <div class="xoa-card">
+                            <a href="removeCard/370d08585360f5c568b18d1f2e4ca1df ">x</a>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="img-card">
+                            <img src="img/2.jpg" width="100%" alt="">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="name-card">
+                            <a href="" class="name-card">Đậu Hà Lan Wasabi</a>                                   
+                        </div>
+                    </td>
+                    <td class="gia">50000đ</td>
+                    <td>
+                        <input type="number" name="qty" id="" value="1">
+                        <button type="submit">update</button>
+                    </td>
+                    <td class="gia">50000đ</td>
+                </tr>
+ 
+            </form>
+                        <form action="updateCard" method="post">
+                <input name="_token" type="hidden" value="BGuPXlRUPrDtH1QCAa3BX0nQdQeRCvNHHxRYUZpX"/>
+                <input type="hidden" name="rowId" value="8a48aa7c8e5202841ddaf767bb4d10da">
+                <tr class="tb1-info">
+                    <td>
+                        <div class="xoa-card">
+                            <a href="removeCard/8a48aa7c8e5202841ddaf767bb4d10da ">x</a>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="img-card">
+                            <img src="img/2.jpg" width="100%" alt="">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="name-card">
+                            <a href="" class="name-card">Đậu Hà Lan Wasabi</a>                                   
+                        </div>
+                    </td>
+                    <td class="gia">50000đ</td>
+                    <td>
+                        <input type="number" name="qty" id="" value="1">
+                        <button type="submit">update</button>
+                    </td>
+                    <td class="gia">50000đ</td>
+                </tr>
+ 
+            </form>
+                            <tr>
+                    <td></td>
+                    <td colspan="3"><a class="ttm button" href="http://localhost/mylaravel/public">Tiếp tục mua</a></td>
+                </tr>
+            </table>
+        </div>
+        <div class="content-table-2">
+            <table class="table2">
+                <tr class="tb1-top">
+                    <td colspan="2">Tổng giỏ hàng</td>
+                </tr>
+                <tr>
+                    <td>Tổng tiền sản phẩm</td>
+                    <td class="gia">100,000.00đ</td>
+                </tr>
+                <tr>
+                    <td>Phí vận chuyển</td>
+                    <td class="gia">0đ</td>
+                </tr>
+                <tr>
+                    <td>Tổng cộng</td>
+                    <td class="gia">100,000.00đ</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <a class="button" href="checkout">tiếp tục</a>
+                    </td>  
+                </tr>
+            </table>
+        </div>
+	</div>
+	<div class="clear"></div>
+	<footer>
+    <div class="clear"></div>
+    	<div class="center">
+    		<h3>Bánh kẹo nhập khẩu</h3>
+    		<p><STRONG>Địa chỉ:</STRONG> 55a đường 2 tháng 4 Thạnh Mỹ Đơn Dương - Lâm Đồng</p>
+    		<p><strong>Điện thoại:</strong> 01682 986 838</p>
+    		<p><strong>Email:</strong> quochuy.dev@gmail.com</p>
+    		<p><strong>Websites:</strong> quochuydev.esy.es</p>
+
+			<script id="cid0020000182953663746" data-cfasync="false" async src="//st.chatango.com/js/gz/emb.js" style="width: 317px;height: 399px;">{"handle":"chatvoiadmin","arch":"js","styles":{"a":"6ecc15","b":100,"c":"FFFFFF","d":"FFFFFF","k":"6ecc15","l":"6ecc15","m":"6ecc15","n":"FFFFFF","p":"10","q":"6ecc15","r":100,"usricon":0.57,"pos":"br","cv":1,"cvfntsz":"14px","cvbg":"6ecc15","cvfg":"000000","cvw":250,"cvh":40,"surl":0,"ticker":1,"fwtickm":1}}</script>			
+
+		</div>	</footer>
+</body>
+
+</html>

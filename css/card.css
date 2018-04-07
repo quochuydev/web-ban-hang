@@ -1,0 +1,101 @@
+.content{
+    min-height:480px;
+    width: 1200px;
+}
+.content-table-1{
+    width:800px;
+    float: left;
+}
+.content-table-2{
+    width:400px;
+    float: left;
+}
+.table1{
+    width: 800px;
+    margin:0 auto;
+}
+.table2{
+    width: 350px;
+    margin:0 auto;
+}
+table tr td{
+    padding:10px 5px; 
+}
+.tb1-top td{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    border-bottom:2px solid gray;
+}
+.tb1-info input{
+    text-align: center;
+    width:50px;
+}
+.tb1-info button{
+}
+.xoa-card{
+    height:30px;
+    width: 30px;
+    border:1px solid black;
+    border-radius: 50%;
+    text-align: center;
+}
+.xoa-card a{
+    font-weight: 600;
+    padding-top: 3px;
+    display: block;
+}
+.img-card{
+    width: 80px;
+    height: 120px;
+    overflow: hidden;
+}
+.name-card{
+    color:black;
+    font-size: 18px;
+}
+.gia{
+    font-weight: bold;
+    font-size: 20px;
+    color:red;
+    line-height: 2;
+    text-align: right;
+}
+.button-error{
+    background: #dbdbdb;
+    color: #fff;
+    border:1px solid #6ecc15;
+    padding: 10px 15px;
+    width:120px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.button, .button-checkout{
+    background: #6ecc15;
+    color: white;
+    padding: 10px 20px;
+    border:1px solid #6ecc15;
+    font-size: 18px;
+    font-weight: bold;
+    transition: .3s all;
+    cursor: pointer;
+}
+.button:hover, .button-checkout:hover{
+    background: #fff;
+    color:#6ecc15;
+}
+.content h1{
+    margin:30px 0;
+    color:#ccc;
+    font-size: 30px;
+    font-weight: 400;
+}
+.content h1 span {
+    color:#000;
+}
+.form-user span{color :red;}
+.form-user input{ height: 30px; width: 550px;  }
+.form-user p{margin-top:20px; margin-bottom: 5px;}
+.form-user #note{ font-size: 18px; padding:20px; }
+.form-user h4{color:#444;}

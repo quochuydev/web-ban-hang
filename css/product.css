@@ -1,0 +1,109 @@
+.content-right{
+	/* background: red !important; */
+	
+}
+.content-col-1{
+	/* background: green; */
+	margin: 0 auto;
+	width: 435px;
+	float: left;
+	padding:20px;
+}
+.content-col-1 h2{
+	line-height: 3;
+}
+.share{
+	margin-top:20px;
+	width: 200px;
+	display: flex;
+}
+.share li{
+	flex:1;
+}
+.share li a{
+	font-size: 25px;
+	color: black;
+}
+
+.content-col-1 i{
+	border: 1px solid gray;
+	padding:5px;
+	border-radius: 50%;
+	color: gray;
+	background: white;
+	transition: .3s all;
+	font-size: 18px;
+}
+.content-col-1 i:hover{
+	background: gray;
+	color: white;
+}
+.gia-sanpham{
+	color:red;
+	font-weight: bold;
+	font-size: 24px;
+	margin:10px 0px;
+}
+.themvaogio {
+	margin:30px 0;
+}
+.themvaogio a{
+	background: #6ecc15;
+	color: white;
+	padding:10px 20px;
+}
+
+.content-col-2{
+	width: 870px;
+	padding:30px;
+	line-height: 1.7;
+}
+.content-col-text{
+	width:800px;
+}
+.content-col-2 h2{
+	text-decoration: underline;
+    text-decoration-color: #6ecc15;
+}
+.content-col-2 p{
+
+}
+.content-col-2 p span{
+	color:red;
+	font-size: 20px;	
+}
+.img-product{
+	border:1px solid rgba(0,0,0,0.2);
+	padding:5px;
+	margin:10px auto;
+	width:270px;
+	height:330px;
+	overflow: hidden;
+}
+.anhchinh{
+}
+.slick-prev:before, .slick-next:before {
+    color: gray !important;
+}
+.slick-slide img{
+    overflow: hidden;
+}
+.form-product{
+	width: 300px;
+	height:200px;
+}
+.qty-product{
+	width: 300px;
+	height: 50px;
+	display: block;
+}
+.add-product{
+	height: 80px;
+	width: 300px;
+}
+.qty{
+	height:40px;
+	width:40px;
+	border: 0;
+	font-size: 18px;
+}
